@@ -26,7 +26,8 @@ h1 {
 }
 
 .bg-image {
-  background: url("./jam.jpg") no-repeat center center fixed;
+  background-color: #6DB3F2;
+  background: url("./jam.jpg") no-repeat center center fixed, black;
   height: 100%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
