@@ -5,7 +5,6 @@
 }
 
 body, html {
-  height: 100%;
   overflow: hidden;
 }
 
@@ -27,16 +26,14 @@ h1 {
 }
 
 .bg-image {
-  background-image: url("jam.jpg");
-  filter: blur(2px);
-	-webkit-filter: blur(2px);
+  background-image: url("./jam.jpg");
 	height: 100%;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .bg-text {
